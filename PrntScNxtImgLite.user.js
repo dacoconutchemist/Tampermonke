@@ -12,11 +12,11 @@
 
 (function() {
     'use strict';
+    var hold = document.getElementsByClassName("header-social")[0];
+    $(".header-downloads.js-download-last-home").remove();
     if(document.location.href == "https://prnt.sc/"){
-
+        
     } else {
-        $(".header-downloads.js-download-last-home").remove();
-        var hold = document.getElementsByClassName("header-social")[0];
         var lnk = document.createElement("a");
         lnk.innerHTML = "◀️◀️◀️◀️◀️";
         lnk.style.color = "white";
