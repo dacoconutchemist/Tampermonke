@@ -12,11 +12,23 @@
 
 (function() {
     'use strict';
-    var lnk = document.createElement("a");
-    lnk.innerHTML = "▶️▶️▶️";
-    lnk.style.color = "white";
-    lnk.href = "https://prnt.sc/" + (parseInt(document.location.href.split("/").slice(-1)[0], 36) + 1).toString(36);
-    lnk.target = "_self";
-    var hold = document.getElementsByClassName("header-social")[0];
-    hold.appendChild(lnk);
+    if(document.location.href == "https://prnt.sc/"){
+
+    } else {
+        $(".header-downloads.js-download-last-home").remove();
+        var hold = document.getElementsByClassName("header-social")[0];
+        var lnk = document.createElement("a");
+        lnk.innerHTML = "◀️◀️◀️◀️◀️";
+        lnk.style.color = "white";
+        lnk.href = "https://prnt.sc/" + (parseInt(document.location.href.split("/").slice(-1)[0], 36) - 1).toString(36);
+        lnk.target = "_self";
+        hold.appendChild(lnk);
+        lnk = document.createElement("a");
+        lnk.innerHTML = "▶️▶️▶️▶️▶️";
+        lnk.style.color = "white";
+        lnk.href = "https://prnt.sc/" + (parseInt(document.location.href.split("/").slice(-1)[0], 36) + 1).toString(36);
+        lnk.target = "_self";
+        hold.appendChild(lnk);
+        document.title = "ID: " + document.location.href.split("/").slice(-1)[0];
+    }
 })();
