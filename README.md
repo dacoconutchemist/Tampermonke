@@ -1,7 +1,5 @@
 #  GummerCraftNameReplacer
 This is a thing in Ukrainian that replaces names on the LiveAtlas minecraft minimap (works only with the one found on https://map.gummercraft.fun). It is easily modifiable to work with other LiveAtlas minimaps.
-# YoutubeSaver
-Opens Savefrom.
 # PrntScNextImage
 A thing that lets you look through leaked screenshots at prnt.sc. They have switched to a new url system, but for the sake of backwards compatibility, some of the screenshots are still hosted there. Almost all of them were removed, so good luck with finding more! ALL CRYPTO WALLET ACCOUNT DATA THERE IS HONEY POT CRYPTO SCAMS
 # YTUtils
