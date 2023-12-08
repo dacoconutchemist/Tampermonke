@@ -1,4 +1,6 @@
 {
+  "name": "Політична мапа ГК (beta)",
+  "uuid": "daco-politmap",
   "polygons": [
     {
       "name": "BlackCat",
