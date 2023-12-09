@@ -1,6 +1,7 @@
 {
   "name": "Політична мапа ГК (beta)",
   "uuid": "daco-politmap",
+  "desc": "Бета-версія політичної мапи, яка використовується для тестування та розробки DacoMap.\nАвтор - dacoconutchemist",
   "polygons": [
     {
       "name": "BlackCat",
